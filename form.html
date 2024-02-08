@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <a href="index.html">Домой</a>
+    <h1>Формы</h1>
+
+    <form>
+        <div>
+            <label for="text111">НАЖМИ МЕНЯ</label>
+            <input type="text" name="text111" id="text111"
+            value="Такой например текст" readonly>
+        </div>
+
+        <div>
+            <label for="email">Введи почт.</label>
+            <input type="email" name="" id="email"
+            placeholder="Сюда введи почту">
+        </div>
+
+        <div>
+            <label for="password">Пароль</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div>
+            <label for="Numb">Число</label>
+            <input type="number" id="Numb" min="0" max="10">
+        </div>
+
+        <div>
+            <label for="range">Ползунок</label>
+            <input type="range" id="range" min="0" max="10" step="2">
+        </div>
+
+        <div>
+            <label for="date">Дата</label>
+            <input type="date"  id="date">
+        </div>
+
+        <div>
+            <label for="co">Цвет</label>
+            <input type="color" id="co">
+        </div>
+
+        <div>
+            <label for="mess">Сообщение</label>
+            <br>
+            <textarea id="mess" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="vibor">Напиток?</label>
+            <select name="NAPITOK" id="vibor">
+                <option value="cola">Кокакола</option>
+                <option value="tea" selected>Чай</option>
+                <option value="milk">Молоко</option>
+                <option value="juice">Сок</option>
+                <option value="beer">Пиво</option>
+            </select>
+        </div>
+    <hr>
+        <div>
+            <label >Знак зодиака:</label>
+            
+            <input type="radio" name="zz"> Скорпион
+            <input type="radio" name="zz"> Близнецы
+            <input type="radio" name="zz"> Телец
+            <input type="radio" name="zz"> Весы
+            <input type="radio" name="zz"> Рак
+        </div>
+    <hr>
+        <div>
+            <label>Питомцы:</label>
+                <input type="checkbox" name="pet"> Кошка
+                <input type="checkbox" name="pet"> Собака
+                <input type="checkbox" name="pet" > Змея
+                <input type="checkbox" name="pet"> Черепаха
+                <input type="checkbox" name="pet"> ТАРАКАНЫ....
+        </div>
+
+        <button type="reset">Сбросить форму</button>
+        <!-- <input type="submit" value="Отправить форму"> -->
+        <button type="submit">Отправить форму</button>
+    </form>
+
+</body>
+</html>
